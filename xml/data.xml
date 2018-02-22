@@ -6,4 +6,4 @@
   <text>blabla</text>
   <rating>5</rating>
  </feedback>
-</feedbacks>
+<feedback><module>CS265</module><semester>Sem2_2017-18</semester><text>OK...</text><rating>3</rating></feedback></feedbacks>

@@ -1,6 +1,7 @@
 <?php 
 
 if (isset($_POST['submit'])){
+  
   $module = $_POST['module'];
   $semester = $_POST['semester'];
   $text = $_POST['text'];
@@ -9,6 +10,9 @@ if (isset($_POST['submit'])){
 
   // load the previous XML file
   $xml = simplexml_load_file("../xml/data.xml") or die('ERROR: Cannot find the data storage');
+
+  // debug: output the old XML file
+  //print_r($xml);
   
   // add a node
   $feedback = $xml->addChild('feedback');

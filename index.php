@@ -13,9 +13,8 @@
 <body>
 
   <div class="jumbotron text-center">
-    <h1>Feedback Box</h1>
-    <p>Resize this responsive page to see the effect!</p>
-  </div>
+<a href=""><img src="FeedbackBox.svg" class="img-fluid" alt="Feedback Box" width="250"></a>
+</div>
 
   <div class="container">
 
